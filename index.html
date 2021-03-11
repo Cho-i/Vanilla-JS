@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Something</title>
+  <style>
+    body{background:orange;}
+    h1{color:#fff;}
+  </style>
+</head>
+<body>
+  <h1 id="title">This Work!</h1>
+<script>
+  //const title = document.getElementById('title');
+  const title = document.querySelector('#title');
+  console.log(document);
+  console.log(title);
+  title.innerHTML = 'Hi! From JS';
+
+  function handleResize(event){
+    console.log(event);
+  }
+  window.addEventListener('resize', handleResize);
+  
+  function handleClick() {
+    title.style.color = 'black';
+  }
+  title.addEventListener('click', handleClick);
+  
+</script>
+</body>
+</html>
