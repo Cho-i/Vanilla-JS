@@ -94,7 +94,7 @@ console.log(a, b);
 
 `TypeError:Assignment to constant variable.`
 
-Assignment to constant variable 에러가 발생했다. const로 선언된 변수에 재할당으르 시도할 때 나타나는 에러이다. 변수를 선언할 때는 기본적으로 const를 사용하고 let은 재할당이 필요한 경우에만 한정해 사용하는 습관을 기르자. 생각보다 객체를 재할당하는 경우는 드물다. let을 남발하여 우도치 않은 재할당 방지를 위해 기본적으로 const를 사용하자.
+Assignment to constant variable 에러가 발생했다. const로 선언된 변수에 재할당으르 시도할 때 나타나는 에러이다. 변수를 선언할 때는 기본적으로 const를 사용하고 let은 재할당이 필요한 경우에만 한정해 사용하는 습관을 기르자. 생각보다 객체를 재할당하는 경우는 드물다. let을 남발하여 의도치 않은 재할당 방지를 위해 기본적으로 const를 사용하자.
 
 
 
