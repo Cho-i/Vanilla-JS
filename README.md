@@ -60,7 +60,7 @@ Vanilla JS는 120만개가 넘는 Operation(ops)을 1초(sec)에 할 수 있다.
 
 ## 다운로드
 
-웹사이트에 있는 여러가지 파일을 다운로드 받으면, 실제로 exe 파일은 없고 0byte가 뜨면서 **"그냥 보로 코딩을 시작해라"** 라는 주석이 뜬다.
+웹사이트에 있는 여러가지 파일을 다운로드 받으면, 실제로 exe 파일은 없고 0byte가 뜨면서 **"그냥 바로 코딩을 시작해라"** 라는 주석이 뜬다.
 
 JavaScript 코딩에 있어 여러가지 프레임워크/라이브러리가 필요하지 않다는걸 알려주기 위해 만들어진 사이트인것 같다.
 
@@ -367,7 +367,7 @@ function handleResize(event){
 window.addEventListener('resize', handleResize);
 ```
 
-자바스크립트는 이벤트를 받기 기다리고 있다. 여기서 어떤 이벤트를 ㄱ다리는 이벤트를 다룰 함수와 함께 명시해 줘야 한다. 모든 이벤트를 기다릴 수는 없기 때문. 이벤트 함수를 정의할 때마다 자바스크립트는 event 객체를 자동적으로 함수에 주입.
+이벤트 함수를 정의할 때마다 자바스크립트는 event 객체를 자동적으로 함수에 주입.
 
 ```javascript
 const title = document.querySelector('#title');
